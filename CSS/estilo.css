@@ -32,3 +32,34 @@ nav {
 nav.scrolled {
   background-color: #333 !important;
 }
+
+#integrantes a {
+  display: grid;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#integrantes #title {
+  font-size: 4rem;
+}
+
+#integrantes #projeto {
+  font-size: 1.5rem;
+}
+
+#integrantes .card {
+  display: inline-block;
+  flex-direction: column;
+  width: 18rem;
+}
+
+#integrantes .card img {
+  width: 100%;
+  filter: grayscale(1);
+  object-fit: cover;
+}
+
+#integrantes ul {
+  display: inline-block;
+  flex-direction: row;
+}
